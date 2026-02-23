@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.hero {
+  padding: 40px;
+  background: #111;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.image-section {
+  padding: 40px;
+  background: white;
+  color: black;
+}
+
+.image-section img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+blockquote {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.bio {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+}
+
+footer {
+  padding: 20px;
+  background: #111;
+  color: #aaa;
+}
+
+.profile-img {
+  width: 220px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
