@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>To-Do List Web App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>To-Do List Web App</h1>
+
+<div class="container">
+
+<div class="form">
+<input type="text" id="title" placeholder="Title">
+<textarea id="desc" placeholder="Description"></textarea>
+<button onclick="addTask()">Add Task</button>
+</div>
+
+<div class="tasks">
+<h2>Pending Tasks</h2>
+<ul id="pending"></ul>
+
+<h2>Completed Tasks</h2>
+<ul id="completed"></ul>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
